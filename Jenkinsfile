@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'dev', url: 
+                git branch: 'dev', url: 'https://github.com/DS-gandhi/Devops-Project-ToDo-EC2.git'
             }
         }
 
